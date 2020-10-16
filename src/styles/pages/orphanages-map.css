@@ -1,0 +1,101 @@
+#page-map {
+  width: 100vw;
+  height: 100vh;
+}
+
+#page-map aside {
+  height: 100%;
+}
+
+#sidebar {
+  position: relative;
+
+  display: flex;
+
+  background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
+
+  width: 400px;
+  height: 100vh;
+  height: 100%;
+}
+
+.create-orphanage {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+
+  width: 80px;
+  height: 80px;
+  background: #15c3d6;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 0.2s;
+}
+
+#page-map .sidebar-wrapper {
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#text-pick {
+  margin-top: 100px;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 42px;
+
+  max-width: 233px;
+}
+
+#text-wait {
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+#page-map .sidebar-wrapper header {
+  margin-top: 80px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+#page-map .sidebar-wrapper footer {
+  position: absolute;
+  bottom: 0;
+
+  margin-bottom: 80px;
+  margin-left: 80px;
+  margin-right: 80px;
+
+  text-align: left;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#page-map .content-wrapper {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+
+  flex-direction: row;
+}
+
+#page-map .map-wrapper {
+  position: relative;
+  width: 100%;
+
+  background: #fffffa;
+}
