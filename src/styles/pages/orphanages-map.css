@@ -36,6 +36,10 @@
   transition: background-color 0.2s;
 }
 
+.create-orphanage:hover {
+  background: #96feff;
+}
+
 #page-map .sidebar-wrapper {
   position: relative;
 
@@ -96,6 +100,9 @@
 #page-map .map-wrapper {
   position: relative;
   width: 100%;
+}
 
-  background: #fffffa;
+#map {
+  width: 100%;
+  height: 100%;
 }
